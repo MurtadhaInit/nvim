@@ -1,10 +1,11 @@
 -- Options
-require('core.options')
+require 'options'
 
 -- Mappings
-require('core.mappings')
+require 'mappings'
 
--- Plugins
-require('core.lazy')
-require('core.plugin_config')
+-- lazy.nvim plugin manager
+require 'lazy-bootstrap'
 
+-- Install and configure plugins
+require 'lazy-plugins'
